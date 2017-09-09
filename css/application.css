@@ -1,9 +1,147 @@
-/* line 3, ../sass/application.scss */
-body {
-  background-color: #fefefe;
+/* Base Configuration */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, ../sass/_reset.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
-/* line 7, ../sass/application.scss */
-#profile-wrp {
+/* HTML5 display-role reset for older browsers */
+/* line 16, ../sass/_reset.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 19, ../sass/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../sass/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 25, ../sass/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 29, ../sass/_reset.scss */
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+/* line 34, ../sass/_reset.scss */
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 38, ../sass/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 4, ../sass/application.scss */
+body {
+  background: #1A2980;
+  background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);
+  background: linear-gradient(to right, #26D0CE, #1A2980);
+  font-size: 16px;
+  color: #000000;
+}
+
+/* line 12, ../sass/application.scss */
+h1, h2 {
+  font-family: "Titillium Web", sans-serif;
+  margin: 10px auto;
+  font-size: 24px;
+}
+
+/* line 18, ../sass/application.scss */
+p {
+  font-family: "Open Sans", sans-serif;
+  line-height: 24px;
+}
+
+/* line 23, ../sass/application.scss */
+.profile-wrp {
   border: 1px solid #eee;
+  border-radius: 10px;
+  margin: 2% auto;
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  background: #ffffff;
+}
+
+/* line 33, ../sass/application.scss */
+.user {
+  width: 100%;
+}
+/* line 35, ../sass/application.scss */
+.user .user-img {
+  display: inline-block;
+  width: 30%;
+  float: left;
+}
+/* line 39, ../sass/application.scss */
+.user .user-img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  box-shadow: 1px 2px 1px #eee;
+}
+/* line 46, ../sass/application.scss */
+.user .user-details {
+  display: inline-block;
+  width: 70%;
+  float: left;
+  margin-bottom: 30px;
+}
+/* line 51, ../sass/application.scss */
+.user .user-details h1 {
+  font-size: 32px;
+}
+/* line 54, ../sass/application.scss */
+.user .user-details p {
+  color: #888;
+  font-size: 14px;
+}
+/* line 58, ../sass/application.scss */
+.user .user-details .location {
+  font-style: italic;
+}
+
+/* line 64, ../sass/application.scss */
+.user:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/* line 71, ../sass/application.scss */
+.user-extended h2 {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+/* line 75, ../sass/application.scss */
+.user-extended p {
+  margin-bottom: 15px;
+}
+/* line 78, ../sass/application.scss */
+.user-extended .quote-attribution {
+  font-style: italic;
+  color: #888;
+  text-align: right;
 }
