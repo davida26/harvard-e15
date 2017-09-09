@@ -1,0 +1,9 @@
+/* line 3, ../sass/application.scss */
+body {
+  background-color: #fefefe;
+}
+
+/* line 7, ../sass/application.scss */
+#profile-wrp {
+  border: 1px solid #eee;
+}
