@@ -1,3 +1,4 @@
+<?php require('quote.php'); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,8 +27,8 @@
 			<h2>About Me</h2>
 			<p>I've had an interest in technology since I was young. As I got older, I found the web to be my true calling. During my undergraduate studies I specialized in web applications and the hardware that runs them. Today, I get to build awesome applications and features for really cool companies. I look forward to learning more in this class.</p>
 			<h2>Quotes I Like</h2>
-			<p>The day soldiers stop bringing you their problems is the day you have stopped leading them. They have either lost confidence that you can help them or concluded that you do not care. Either case is a failure of leadership.</p>
-			<p class="quote-attribution">- Colin Powell</p>
+			<p><?php echo $getQuote; ?></p>
+			<p class="quote-attribution">- <?php echo $getQuoteAuthor; ?></p>
 	    </div>
     </div>
 </body>
