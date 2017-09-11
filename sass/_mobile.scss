@@ -1,0 +1,14 @@
+@media (max-width:480px) {
+	.user-img{
+		display: block !important;
+		float: none !important;
+		width: 100px !important;
+		margin: 0 auto;
+	}
+	.user-details{
+		display: block !important;
+		text-align: center;
+		float: none !important;
+		width: 100% !important;
+	}
+}

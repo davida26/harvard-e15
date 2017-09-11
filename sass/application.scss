@@ -1,6 +1,10 @@
 @import "base";
 @import "reset";
 
+* {
+	box-sizing: border-box;
+}
+
 body{
 	background: #1A2980;
     background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);
@@ -34,7 +38,7 @@ p {
 	width: 100%;
 	.user-img{
 		display: inline-block;
-		width: 30%;
+		width: 32%;
 		float: left;
 		img{
 			width: 100px;
@@ -45,7 +49,7 @@ p {
 	}
 	.user-details{
 		display: inline-block;
-		width: 70%;
+		width: 68%;
 		float: left;
 		margin-bottom: 30px;
 		h1{
@@ -81,4 +85,6 @@ p {
 		text-align: right;
 	}
 }
+
+@import "mobile";
 
