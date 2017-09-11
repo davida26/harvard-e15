@@ -25,7 +25,7 @@
 	    </div>
 	    <div class="user-extended">
 			<h2>About Me</h2>
-			<p>I've had an interest in technology since I was young. As I got older, I found the web to be my true calling. During my undergraduate studies I specialized in web applications and the hardware that runs them. Today, I get to build awesome applications and features for really cool companies. I look forward to learning more in this class.</p>
+			<p>I've had an interest in technology since I was young. As I got older, I found the web to be my true calling. During my undergraduate studies I specialized in web applications and the hardware that runs them. Today, I get to build awesome applications and features for really cool companies. I look forward to learning more about the Laravel framework and PHP.</p>
 			<h2>Quotes I Like</h2>
 			<p><?php echo $getQuote; ?></p>
 			<p class="quote-attribution">- <?php echo $getQuoteAuthor; ?></p>
